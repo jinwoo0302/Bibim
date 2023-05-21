@@ -26,6 +26,10 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    //swagger 달기
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+    //서버 사이드에서 뷰 만들기
+    implementation 'org.springframework.boot:spring-boot-starter-mustache'
 }
 
 tasks.named('test') {
