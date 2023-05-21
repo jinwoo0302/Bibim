@@ -1,4 +1,4 @@
-package com.springboot.Domain;
+package com.springboot.Domain.posts;
 
 import jakarta.persistence.*;
 import lombok.Builder;
@@ -28,4 +28,10 @@ public class Posts {
         this.content = content;
         this.author = author;
     }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
+
 }
